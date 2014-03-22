@@ -9,8 +9,10 @@ import numpy as np
 import numpy
 import time
 
-tam=10
-ordem=3
+
+
+tam=2
+ordem=2
 ordemQuadrada=ordem**2
 listaVetores=[]
 m=[]
@@ -75,14 +77,12 @@ del(aux2)
 print(matriz)
 print(len(matriz))
 print ("tempo=",time.clock())
-    
 
+data=matriz
+numpy.save('test.npy',data)
 
-    
-         
-        
-    
-    
+data2=numpy.load('test.npy')
+print(data2)
         
 
             
