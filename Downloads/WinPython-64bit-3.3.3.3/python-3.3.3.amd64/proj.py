@@ -91,14 +91,7 @@ print ("tempo=",time.clock())
 
 
 
-#while(len(listaVetores)>0):
- #  for i in listaVetores:
-  #     for j in range(ordemQuadrada):
-   #        m2.append([j])
-    #       listaVetores.pop([int j])
-#print(m2)
-#print(len(m2))
-           
+
            
 
 
